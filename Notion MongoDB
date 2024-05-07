@@ -1,1 +1,28 @@
 
+Instalação do MongoDB no VS Code e do software MongoDB Compass.
+Certifique-se de ter o Python e o VS Code instalados no seu sistema.
+Instale o MongoDB no VS Code com o seguinte comando, caso não estejam instalados:
+Observação: Caso tenha algum problema com o PATH do VS Code, aconselho instalar outro software conhecido como Anaconda e abrir o VS Code por ele. (Deixarei como instalar o Anaconda no final do Notion).
+
+Para instalar o software do MongoDB, acesse o link:
+
+Download MongoDB Community Server
+
+Após instalar o aplicativo com o arquivo "exe", abra um servidor clicando em "Save & Connect" e copie o URI escrito na caixa acima.
+Depois de fazer a conexão, essa será a interface do aplicativo.
+Ao lado esquerdo da tela, está escrito "Databases", clique em "+".
+Estaremos agora criando um banco de dados para salvar seus dados.
+Em "Database Name", escreva "Meu Banco", e em "Collection Name", escreva "minhaCollection" e clique em "Create Database".
+Certo, agora começaremos a verdadeira parte de código. Abra o VS Code novamente, crie um arquivo Python (por exemplo, nomequeescolher.py) e copie a seguinte base.
+Iniciaremos agora o CRUD, Adicionar, ler, atualizar, excluir:
+Utilizaremos essa função para anotar um banco de dados dentro do sistema.
+Essa vamos usar para ver todos os dados dentro do sistema.
+Essa será para atualizar os dados de pessoas que já estão dentro do sistema.
+Essa será utilizada para retirar os dados de alguém do sistema.
+Clique no botão Start para iniciar o código no terminal.
+Código funcionando no terminal do VS Code.
+Pressione 1 para criar um novo documento, 2 para ler documentos, 3 para atualizar documento, 4 para deletar documento, 5 para sair do programa. (Observação: caso qualquer outra tecla seja escolhida, nada acontecerá).
+Após mexer nas funções pelo terminal, elas serão adicionadas na pasta.
+Caso não estejam aparecendo as informações, apenas cliquem em "Find" (botão verde à direita), e esse problema será resolvido.
+E é isso! Criamos um CRUD em Python utilizando o MongoDB, muito obrigado pela atenção!
+Para os que tiverem com problemas com o VS Code aqui vai como instalar o Anaconda.
